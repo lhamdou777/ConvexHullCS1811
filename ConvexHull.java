@@ -147,7 +147,7 @@ public class ConvexHull //extends Application
     }
     //Graphics
 
-    /*@Override
+    @Override
     public void start(Stage primaryStage)throws Exception
     {
       for(int i = 0; i < xEntries.length; i++)
@@ -191,5 +191,5 @@ public class ConvexHull //extends Application
       primaryStage.setTitle("Convex Hull");
       primaryStage.show();
 
-    }*/
+    }
 }
