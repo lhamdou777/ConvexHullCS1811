@@ -1,12 +1,12 @@
 import java.util.*;
-/*import javafx.application.Application;
+import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.ScatterChart;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
-*/
+
 
 public class ConvexHull //extends Application
 {
