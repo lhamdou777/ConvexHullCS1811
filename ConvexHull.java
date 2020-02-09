@@ -8,7 +8,7 @@ import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
 
 
-public class ConvexHull //extends Application
+public class ConvexHull extends Application
 {
     public static int sizer = 0;
     public static double[] xEntries;
@@ -35,7 +35,7 @@ public class ConvexHull //extends Application
         if ( checkDuplicates(pointCount, xVal, yVal) ) return;
         System.out.println("Convex Hull Points: \n");
         computeConvexHull(pointCount, xVal, yVal);
-        //launch(args);
+        launch(args);
     }
 
     static int loadPoints(int maxPoints, double xVal [], double yVal[])
